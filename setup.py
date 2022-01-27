@@ -24,7 +24,7 @@ setup(
     name='lektor-twitter-feed',
     packages=find_packages(),
     py_modules=['lektor_twitter_feed'],
-    # url='[link to your repository]',
+    url='https://github.com/eldjoko/lektor-twitter-feed',
     version='0.1',
     classifiers=[
         'Framework :: Lektor',

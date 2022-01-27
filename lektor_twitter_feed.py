@@ -3,9 +3,7 @@ from lektor.pluginsystem import Plugin
 from markupsafe import Markup
 
 TEMPLATE = '''
-    <a class="twitter-timeline" href="https://twitter.com/%(SCREEN_NAME)s">
-    Tweets by @%(SCREEN_NAME)s
-    </a>
+    <a class="twitter-timeline" href="https://twitter.com/%(SCREEN_NAME)s">Tweets by %(SCREEN_NAME)s</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 '''
 
 
